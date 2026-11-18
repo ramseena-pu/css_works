@@ -1,0 +1,26 @@
+.parent{
+    width:75%;
+    height: 400px;
+    background-color:blueviolet ;
+    position: relative;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+}
+.child:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.child:nth-child(3){
+    position:absolute;
+    bottom: 0;
+}
+.child:nth-child(4){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
